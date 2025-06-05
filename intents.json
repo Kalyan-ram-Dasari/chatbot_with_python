@@ -1,0 +1,194 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "What's up?", "How are you?"],
+      "responses": ["Hi there!", "Hello!", "Hey!", "I'm here to help you!"],
+      "context": [""]
+    },
+    {
+  "tag": "unknown",
+  "patterns": [],
+  "responses": [
+    "Sorry, I didn't understand that. Could you please rephrase?",
+    "Hmm... I'm not sure how to respond to that. Try asking in a different way.",
+    "I'm still learning! Can you ask something else?"
+  ],
+  "context": [""]
+},
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!"],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks for your help"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"],
+      "context": [""]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "Are you doing well?", "How's it going?"],
+      "responses": ["I'm just a bot, but I'm doing great!", "All systems go!"],
+      "context": [""]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["Who are you?", "What is your name?", "Are you a robot?"],
+      "responses": ["I'm a chatbot built by kalyan Ram!", "I'm your friendly AI assistant."],
+      "context": [""]
+    },
+    {
+      "tag": "em_chestunav",
+      "patterns": ["em chestunav", "em chestunnava", "em chestunnav"],
+      "responses": ["Nenu chala bagunnanu, meeru ela unnaru?"],
+      "context": [""]
+    },
+    
+    {
+      "tag": "fine",
+      "patterns": ["fine", "good"],
+      "responses": ["Oh great! ,meeku inka em kavali?"],
+      "context": [""]
+    },
+   
+
+    {
+      "tag": "math_addition",
+      "patterns": ["What is 2 plus 2?", "Add 5 and 3", "Calculate 7 + 8"],
+      "responses": ["2 + 2 is 4", "5 + 3 = 8", "7 + 8 is 15"],
+      "context": [""]
+    },
+    {
+      "tag": "math_subtraction",
+      "patterns": ["What is 10 minus 3?", "Subtract 4 from 9", "Calculate 12 - 6"],
+      "responses": ["10 - 3 is 7", "9 - 4 is 5", "12 - 6 is 6"],
+      "context": [""]
+    },
+
+    {
+      "tag": "math_addition",
+      "patterns": ["What is 2 plus 2", "Add 5 and 3", "Calculate 7 + 8"],
+      "responses": ["2 + 2 is 4", "5 + 3 = 8", "7 + 8 is 15"],
+      "context": [""]
+    },
+    {
+      "tag": "math_subtraction",
+      "patterns": ["What is 10 minus 3", "Subtract 4 from 9", "Calculate 12 - 6"],
+      "responses": ["10 - 3 is 7", "9 - 4 is 5", "12 - 6 is 6"],
+      "context": [""]
+    },
+    {
+      "tag": "math_multiplication",
+      "patterns": ["Multiply 3 and 4", "What is 6 times 7", "3 x 5"],
+      "responses": ["3 * 4 is 12", "6 * 7 is 42", "3 x 5 is 15"],
+      "context": [""]
+    },
+    {
+      "tag": "math_division",
+      "patterns": ["Divide 10 by 2", "What is 20 divided by 4", "100 / 5"],
+      "responses": ["10 / 2 is 5", "20 ÷ 4 = 5", "100 / 5 = 20"],
+      "context": [""]
+    },
+    {
+      "tag": "math_formula",
+      "patterns": ["What is the area of a circle", "Give me the formula for area of triangle", "How do I find perimeter?"],
+      "responses": [
+        "Area of a circle = π × r²",
+        "Area of a triangle = ½ × base × height",
+        "Perimeter depends on the shape. For a rectangle, it's 2(l + w)."
+      ],
+      "context": [""]
+    },
+     {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "Why was the math book sad? It had too many problems.",
+        "I told my computer I needed a break, and it said no problem—it needed one too!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me today's weather", "Is it sunny today?"],
+      "responses": ["I'm not connected to real-time weather, but I suggest checking a weather app!", "It depends on your location, maybe try Google Weather?"],
+      "context": [""]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the current time", "Do you know the time?"],
+      "responses": ["I don't have a clock, but you can check your device for the time!", "Time flies! Maybe check your phone or computer for the exact time."],
+      "context": [""]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Tell me the date", "Which day is it?"],
+      "responses": ["Today is a great day! Check your calendar for the exact date.", "I'm not synced to a calendar, but it's always a good day to learn something new!"],
+      "context": [""]
+    },
+    {
+      "tag": "mood_user_happy",
+      "patterns": ["I'm happy", "Feeling good", "I'm excited"],
+      "responses": ["That's awesome to hear!", "Yay! Keep up the great mood!", "Happiness looks good on you!"],
+      "context": [""]
+    },
+    {
+      "tag": "mood_user_sad",
+      "patterns": ["I'm sad", "Feeling down", "I'm not okay"],
+      "responses": ["I'm here for you. Want to talk about it?", "It's okay to feel that way. Things will get better.", "Sending you a virtual hug!"],
+      "context": [""]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["What are your hobbies?", "What do you do for fun?", "Do you have hobbies?"],
+      "responses": ["I like chatting and helping people. What about you?", "My hobby is making conversations interesting!"],
+      "context": [""]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Which color do you like?"],
+      "responses": ["I like all colors equally. They all make the world beautiful!", "Blue is nice—calm and cool, just like this chat!"],
+      "context": [""]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": ["What can you do?", "How can you help me?", "Tell me what you're good at"],
+      "responses": [
+        "I can chat with you, tell jokes, do simple math, and help answer questions!",
+        "Ask me anything—I'll do my best to help!",
+        "I'm here to keep you company and answer questions."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["Tell me a fun fact", "Say something interesting", "Share a fun fact"],
+      "responses": [
+        "Did you know? Honey never spoils. Archaeologists found 3000-year-old honey in Egyptian tombs!",
+        "A group of flamingos is called a 'flamboyance'!",
+        "Octopuses have three hearts and blue blood!"
+      ],
+      "context": [""]
+    },
+    {
+  "tag": "help",
+  "patterns": [
+    "Can you help me?",
+    "I need help",
+    "What can you help me with?",
+    "How can you assist me?",
+    "Help"
+  ],
+  "responses": [
+    "Sure! I can chat with you, answer questions, do simple math, tell jokes, explain basic concepts, and more!",
+    "I'm here to assist with small talk, basic math, fun facts, and general questions. Just ask me anything!",
+    "Need help? You can ask me about math, greetings, jokes, or just talk to me!"
+  ],
+  "context": [""]
+}
+  ]
+}
